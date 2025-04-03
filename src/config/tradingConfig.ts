@@ -1,0 +1,18 @@
+import {TradingConfig} from '../types';
+
+export const tradingConfig: TradingConfig = {
+    SYMBOL: 'BTCUSDT',
+    BASE_GRID_STEP: 50,
+    GRID_SIZE: 7,
+    TRADE_AMOUNT: 0.001,
+    LEVERAGE: 2,
+    TRADING_FEE_PERCENT: 0.04,
+    FUNDING_FEE_INTERVAL: 8 * 60 * 60 * 1000,
+    SLIPPAGE_PERCENT: 0.05,
+    ATR_PERIOD: 14,
+    VOLATILITY_MULTIPLIER: 5,
+    MIN_DYNAMIC_AMOUNT: 0.0005,
+    MAX_PENDING_TIME: 6 * 60 * 60 * 1000,
+    TRAILING_TRIGGER_PERCENT: 1.0,
+    TRAILING_STEP_PERCENT: 0.5,
+};
